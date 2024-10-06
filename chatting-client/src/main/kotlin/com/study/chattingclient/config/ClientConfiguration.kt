@@ -1,6 +1,7 @@
 package com.study.chattingclient.config
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.study.chattingclient.handler.ClientWebSocketSessionHandler
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.messaging.converter.MappingJackson2MessageConverter

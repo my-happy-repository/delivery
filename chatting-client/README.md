@@ -1,0 +1,1 @@
+## 해당 chatting-client 프로젝트를 실행하기 위하여서는 ChattingServer 인 chatting 서버를 먼저 실행시켜 주어야 한다.
