@@ -10,11 +10,14 @@
 ## 논리 모델
 ### 논리 모델은 개념 모델보다 조금 더 구현에 가까워짐, 논리 모델에서는 엔티티의 속성을 찾을 수 있음
 ### 엔티티와 관계를 조금 더 논리적으로 표현 (1:1. 1:N, N:N 등 표현)
+### 추상적인 개념 모델을, 조금 더 구체적인 엔티티와 속성으로 표현
 
 ## 물리 모델
 ### 논리 모델에서 데이터 베이스의 저장 관점, 데이터 타입까지 정의가 가능
-### 
 
+### CREATE SCHEMA food_delivery; ==> DB 스키마 생성
+### CREATE USER 'app'@'localhost' identified by '1234'; ==> Application 에서 사용 할 USER 생성
+### GRANT ALL PRIVILEGES ON *.* TO 'app'@'localhost'; ==> 생성 한 USER 권한 부여
 
 
 
